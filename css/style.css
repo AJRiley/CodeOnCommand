@@ -44,9 +44,10 @@ label{
 /*-- Header --*/
 .header {
     background: #FFF;
-    padding: 1em 0;
+    
     box-shadow: 0px 1px 9px 1px #cfcfcf;
-    border-top: 2px solid #fa4b2a;
+    border-bottom: 2px solid #fa4b2a;
+    background-color: #13232f;
 }
 .navbar-right {
     float: left !important;
@@ -189,9 +190,8 @@ label.icon-search span {
     background: none;
     border: none;
 }
-.navbar-default .navbar-nav > li > a {
-    color: #303030;
-}
+
+
 .navbar-nav > li > a {
     font-size: 14px;
     padding: 10px 18px;
@@ -199,56 +199,17 @@ label.icon-search span {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fa4b2a;
-    background: none;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:#fa4b2a;
-}
-.navbar-default .navbar-nav > .active > a:before{
-	color:#fa4b2a;
-}
-.link-effect-7 {
-  -moz-perspective: 900px;
-  -webkit-perspective: 900px;
-  perspective: 900px;
-}
-.link-effect-7 a {
-  color: rgba(0, 0, 0, 0.4);
-  text-shadow: none;
-  margin: 0;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.link-effect-7 a::before {
-  color: white;
-  content: attr(data-hover);
-  position: absolute;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  -moz-transform-origin: 50% 0 50%;
-  -ms-transform-origin: 50% 0 50%;
-  -webkit-transform-origin: 50% 0 50%;
-  transform-origin: 50% 0 50%;
-  -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-.link-effect-7 a:hover {
-  color: #797878;
-}
-.link-effect-7 a:hover::before {
-  -moz-transform: translateY(22px) rotateX(-90deg);
-  -ms-transform: translateY(22px) rotateX(-90deg);
-  -webkit-transform: translateY(22px) rotateX(-90deg);
-  transform: translateY(22px) rotateX(-90deg);
+
+.navbar-nav > li>a:hover {
+    color: #1ab188;
+    background-color: rgba(156, 156, 156,0.2);
+  
 }
 
+.navbar-nav > li:hover {
+    color: #1ab188;
+  
+}
 
 #logo {
     width:200px;
@@ -332,8 +293,6 @@ min-height: 250px;
 
 .nav>li>a:hover, .nav>li>a:focus {
     text-decoration: none;
-    background-color: lightgray;
-    border-bottom: 3px solid #fa4b2a;
 }
 
 }
