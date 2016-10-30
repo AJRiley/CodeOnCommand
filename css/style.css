@@ -46,7 +46,7 @@ label{
     background: #FFF;
     
     box-shadow: 0px 1px 9px 1px #cfcfcf;
-    border-bottom: 2px solid #fa4b2a;
+    border-bottom: 2px solid #179b77;
     background-color: #13232f;
 }
 .navbar-right {
@@ -263,7 +263,7 @@ min-height: 250px;
     color: #fff;
     font-weight: 600;
     padding: 0.8em 2em;
-    background:#fa4b2a;
+    background:#179b77;
 }
 .banner a:hover {
     color: #fff;
@@ -346,7 +346,7 @@ i.glyphicon.glyphicon-comment {
   position: relative;
 }
 .tc-ch h3 a,.wthree h3 a {
-    color: #fa4b2a;
+    color: #179b77;
     font-weight: 600;
 }
 .tc-ch h3 a:hover, .wthree h3 a:hover {
